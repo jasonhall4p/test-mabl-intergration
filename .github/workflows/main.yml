@@ -19,3 +19,7 @@ jobs:
         with:
           application-id: PUSMEtOwEK0e8oRAdwMbOA-a
           environment-id: xWxzGzLr6mbTjQsiuhpZjw-e
+        # Runs plans matching ANY of the following labels AND the environment/application IDs above
+          plan-labels: |
+            canary
+            smoke-test
