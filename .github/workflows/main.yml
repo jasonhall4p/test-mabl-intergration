@@ -22,4 +22,3 @@ jobs:
         # Runs plans matching ANY of the following labels AND the environment/application IDs above
           plan-labels: |
             smoke-test
-            smoke-test-01
